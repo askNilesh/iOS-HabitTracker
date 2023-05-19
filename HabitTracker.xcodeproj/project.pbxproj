@@ -11,6 +11,12 @@
 		ECED0C922A17DD81009CEF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED0C912A17DD81009CEF65 /* ContentView.swift */; };
 		ECED0C942A17DD82009CEF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECED0C932A17DD82009CEF65 /* Assets.xcassets */; };
 		ECED0C972A17DD82009CEF65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECED0C962A17DD82009CEF65 /* Preview Assets.xcassets */; };
+		ECED0C9E2A17E0B1009CEF65 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED0C9D2A17E0B1009CEF65 /* AddHabitView.swift */; };
+		ECED0CA02A17E358009CEF65 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED0C9F2A17E358009CEF65 /* ColorPicker.swift */; };
+		ECED0CA22A17E3FE009CEF65 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED0CA12A17E3FE009CEF65 /* Color+Extensions.swift */; };
+		ECED0CA42A17E6FA009CEF65 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED0CA32A17E6FA009CEF65 /* Habit.swift */; };
+		ECED0CA62A17E731009CEF65 /* HabitItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED0CA52A17E731009CEF65 /* HabitItems.swift */; };
+		ECED0CA82A17E862009CEF65 /* HabitItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED0CA72A17E862009CEF65 /* HabitItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		ECED0C912A17DD81009CEF65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECED0C932A17DD82009CEF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECED0C962A17DD82009CEF65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECED0C9D2A17E0B1009CEF65 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		ECED0C9F2A17E358009CEF65 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		ECED0CA12A17E3FE009CEF65 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		ECED0CA32A17E6FA009CEF65 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		ECED0CA52A17E731009CEF65 /* HabitItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItems.swift; sourceTree = "<group>"; };
+		ECED0CA72A17E862009CEF65 /* HabitItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				ECED0C912A17DD81009CEF65 /* ContentView.swift */,
 				ECED0C932A17DD82009CEF65 /* Assets.xcassets */,
 				ECED0C952A17DD82009CEF65 /* Preview Content */,
+				ECED0C9D2A17E0B1009CEF65 /* AddHabitView.swift */,
+				ECED0C9F2A17E358009CEF65 /* ColorPicker.swift */,
+				ECED0CA12A17E3FE009CEF65 /* Color+Extensions.swift */,
+				ECED0CA32A17E6FA009CEF65 /* Habit.swift */,
+				ECED0CA52A17E731009CEF65 /* HabitItems.swift */,
+				ECED0CA72A17E862009CEF65 /* HabitItemView.swift */,
 			);
 			path = HabitTracker;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECED0CA82A17E862009CEF65 /* HabitItemView.swift in Sources */,
+				ECED0CA42A17E6FA009CEF65 /* Habit.swift in Sources */,
+				ECED0CA62A17E731009CEF65 /* HabitItems.swift in Sources */,
+				ECED0CA22A17E3FE009CEF65 /* Color+Extensions.swift in Sources */,
 				ECED0C922A17DD81009CEF65 /* ContentView.swift in Sources */,
+				ECED0CA02A17E358009CEF65 /* ColorPicker.swift in Sources */,
 				ECED0C902A17DD81009CEF65 /* HabitTrackerApp.swift in Sources */,
+				ECED0C9E2A17E0B1009CEF65 /* AddHabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
